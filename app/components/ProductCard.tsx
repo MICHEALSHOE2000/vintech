@@ -7,7 +7,7 @@ export function ProductCard({ product }: { product: Product }) {
   return (
     <article className="product-card">
       <Link className="product-image" href={href} aria-label={`View ${product.name}`}>
-        {product.images[0] ? <img src={product.images[0]} alt={`${product.name} available from CHEX Computers`} loading="lazy" decoding="async" referrerPolicy="no-referrer" /> : <span className="product-placeholder"><small>{product.brand}</small><b>{product.name}</b><em>{product.id}</em></span>}
+        {product.images[0] ? <img src={product.images[0]} alt={`${product.name} available from Vintech Global`} loading="lazy" decoding="async" referrerPolicy="no-referrer" /> : <span className="product-placeholder"><small>{product.brand}</small><b>{product.name}</b><em>{product.id}</em></span>}
         <span className="stock-chip"><i /> {product.stockStatus}</span>
       </Link>
       <div className="product-body">
