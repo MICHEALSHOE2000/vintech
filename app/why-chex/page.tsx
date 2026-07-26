@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = { title: "Why CHEX", description: "Why retail and wholesale computer buyers choose CHEX Computers in Computer Village, Ikeja." };
+
+export default function WhyPage() {
+  const reasons = [["01","Inspected devices","Available devices are checked and their key details are confirmed before an order."],["02","Honest specifications","Where a stock configuration varies, CHEX says so and confirms the exact unit."],["03","Buying guidance","Get practical recommendations based on budget, intended use and portability."],["04","Retail + wholesale","Buy a single laptop or request a structured quotation for a larger requirement."],["05","Nationwide coordination","Delivery options can be arranged after your order and exact location are confirmed."],["06","Computer Village presence","Buy from a supplier based in Ikeja’s recognised technology market."]];
+  return <main className="inner-page"><section className="page-hero section-shell"><p className="eyebrow"><span /> Why choose CHEX</p><h1>Confidence comes from<br /><em>knowing the exact unit.</em></h1><p>CHEX makes the buying process clearer by confirming current stock, specifications, condition and delivery before payment.</p></section><section className="reason-grid section-shell">{reasons.map(([n,h,p]) => <article key={n}><span>{n}</span><h2>{h}</h2><p>{p}</p></article>)}</section><section className="final-cta"><div className="section-shell"><p className="eyebrow"><span /> Ready to compare?</p><h2>Browse the complete catalogue.</h2><p>Compare published specifications, then ask the team to confirm the exact available unit and configuration.</p><div><Link className="button button-lime button-large" href="/shop">Shop laptops</Link><Link className="button button-outline button-large" href="/contact">Get a recommendation</Link></div></div></section></main>;
+}
