@@ -6,6 +6,7 @@ import { whatsappUrl } from "../data/site";
 export function EnquiryForm({ type }: { type: "wholesale" | "contact" }) {
   const [submitted, setSubmitted] = useState(false);
   const [message, setMessage] = useState("");
+  const [requestId, setRequestId] = useState("");
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -14,11 +15,24 @@ export function EnquiryForm({ type }: { type: "wholesale" | "contact" }) {
     const data = new FormData(form);
     const summary = Array.from(data.entries()).map(([key, value]) => `${key}: ${value}`).join("\n");
     setMessage(summary);
+    setRequestId(`VT-${Date.now().toString().slice(-8)}`);
     setSubmitted(true);
   }
 
   if (submitted) {
-    return <div className="form-success" role="status"><span>✓</span><h2>Enquiry prepared.</h2><p>Your details are ready. Continue on WhatsApp so the CHEX team can receive and respond to your request.</p><a className="button button-lime" href={whatsappUrl(`Hello CHEX Computers, here is my ${type} enquiry:\n${message}`)} target="_blank" rel="noreferrer">Send details on WhatsApp</a><button type="button" className="text-link" onClick={() => setSubmitted(false)}>Edit enquiry</button></div>;
+    return <div className="form-success receipt-card" role="status">
+      <div className="receipt-head"><img src="/vintech-logo.jpg" alt="Vintech Global" /><span><i /> Ready to send</span></div>
+      <p className="receipt-kicker">VINTECH ENQUIRY RECEIPT</p>
+      <h2>Your request is prepared.</h2>
+      <div className="receipt-lines">
+        <p><span>Request number</span><b>{requestId}</b></p>
+        <p><span>Request type</span><b>{type === "wholesale" ? "Business & bulk supply" : "Laptop enquiry"}</b></p>
+        <p><span>Next step</span><b>Send details on WhatsApp</b></p>
+      </div>
+      <p className="receipt-note">This is an enquiry receipt, not proof of payment. Vintech will confirm availability, the exact configuration and today’s price with you.</p>
+      <a className="button button-lime" href={whatsappUrl(`Hello Vintech Global, here is my ${type} enquiry.\nRequest: ${requestId}\n${message}`)} target="_blank" rel="noreferrer">Continue on WhatsApp</a>
+      <button type="button" className="text-link" onClick={() => setSubmitted(false)}>Edit enquiry</button>
+    </div>;
   }
 
   return (

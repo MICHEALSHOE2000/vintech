@@ -7,13 +7,31 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "CHEX Computers | Laptops in Computer Village, Ikeja",
-    template: "%s | CHEX Computers",
+    default: "Vintech Global | Premium Laptops, Gaming PCs & Accessories in Lagos",
+    template: "%s | Vintech Global",
   },
   description: siteConfig.description,
-  keywords: ["laptops for sale in Lagos", "laptop store in Computer Village Ikeja", "wholesale laptop supplier in Lagos", "business laptops in Nigeria"],
-  openGraph: { title: "CHEX COMPUTERS LTD", description: siteConfig.description, type: "website", locale: "en_NG" },
-  twitter: { card: "summary_large_image", title: "CHEX COMPUTERS LTD", description: siteConfig.description },
+  keywords: [
+    "laptops for sale in Lagos",
+    "Alienware laptop Nigeria",
+    "gaming laptops Computer Village",
+    "laptop accessories Ikeja",
+    "business laptops in Nigeria",
+    "mobile workstations Lagos",
+  ],
+  openGraph: {
+    title: "Vintech Global | Premium Laptops & Accessories",
+    description: siteConfig.description,
+    type: "website",
+    locale: "en_NG",
+    images: ["/vintech-logo.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vintech Global | Premium Laptops & Accessories",
+    description: siteConfig.description,
+    images: ["/vintech-logo.jpg"],
+  },
   other: {
     "codex-preview": "development",
   },
@@ -35,8 +53,8 @@ export default function RootLayout({
         {children}
         <SiteFooter />
         <div className="mobile-action-bar" aria-label="Quick contact actions">
-          <a href={telUrl()}>Call CHEX</a>
-          <a href={whatsappUrl("Hello CHEX Computers, I need help choosing a laptop.")} target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href={telUrl()}>Call Vintech</a>
+          <a href={whatsappUrl("Hello Vintech Global, I need help choosing a laptop.")} target="_blank" rel="noreferrer">WhatsApp</a>
         </div>
       </body>
     </html>

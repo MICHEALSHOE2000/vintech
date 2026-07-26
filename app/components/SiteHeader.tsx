@@ -6,10 +6,10 @@ import { whatsappUrl } from "../data/site";
 
 const links = [
   ["Home", "/"],
-  ["Shop", "/shop"],
-  ["Wholesale", "/wholesale"],
-  ["Why CHEX", "/why-chex"],
-  ["About", "/about"],
+  ["Laptops", "/shop"],
+  ["Gaming", "/shop?category=Gaming+laptops"],
+  ["Accessories", "/#accessories"],
+  ["Why Vintech", "/why-vintech"],
   ["Contact", "/contact"],
 ];
 
@@ -26,12 +26,11 @@ export function SiteHeader() {
 
   return (
     <>
-      <div className="announcement">Fast nationwide delivery across Nigeria.</div>
+      <div className="announcement">Tested devices · Computer Village pickup · Nationwide delivery</div>
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
         <div className="nav-shell">
-          <Link className="wordmark" href="/" aria-label="CHEX Computers home">
-            <span className="wordmark-mark">C</span>
-            <span>CHEX <b>COMPUTERS</b></span>
+          <Link className="wordmark vintech-wordmark" href="/" aria-label="Vintech Global home">
+            <img src="/vintech-logo.jpg" alt="Vintech Global Communications and Services Limited" />
           </Link>
           <nav className="desktop-nav" aria-label="Primary navigation">
             {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
@@ -41,7 +40,7 @@ export function SiteHeader() {
             <input id="site-search" name="q" type="search" placeholder="Search model or spec" />
             <button aria-label="Search">↗</button>
           </form>
-          <a className="button button-small button-lime nav-cta" href={whatsappUrl("Hello CHEX Computers, I need help choosing a laptop.")} target="_blank" rel="noreferrer">WhatsApp</a>
+          <a className="button button-small button-lime nav-cta" href={whatsappUrl("Hello Vintech Global, I need help choosing a laptop.")} target="_blank" rel="noreferrer">Ask an expert</a>
           <button className="menu-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-nav" aria-label="Toggle menu">
             <span /> <span />
           </button>

@@ -1,33 +1,30 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-const developmentPreviewMeta =
-  /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
+const readExportedPage = (name) =>
+  readFile(new URL(`../out/${name}`, import.meta.url), "utf8");
 
-test("renders development preview metadata", async () => {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  const { default: worker } = await import(workerUrl.href);
+test("exports the Vintech homepage with premium branding and SEO", async () => {
+  const html = await readExportedPage("index.html");
 
-  const response = await worker.fetch(
-    new Request("http://localhost/", {
-      headers: { accept: "text/html" },
-    }),
-    {
-      ASSETS: {
-        fetch: async () => new Response("Not found", { status: 404 }),
-      },
-    },
-    {
-      waitUntil() {},
-      passThroughOnException() {},
-    },
-  );
-
-  assert.equal(response.status, 200);
   assert.match(
-    response.headers.get("content-type") ?? "",
-    /^text\/html\b/i,
+    html,
+    /<title>Vintech Global \| Premium Laptops, Gaming PCs &amp; Accessories in Lagos<\/title>/i,
   );
-  assert.match(await response.text(), developmentPreviewMeta);
+  assert.match(html, /<meta name="description" content="[^"]*Vintech Global/i);
+  assert.match(html, /src="\/vintech-logo\.jpg"/i);
+  assert.match(html, /Alienware x17 R2/i);
+  assert.match(html, /Laptop accessories/i);
+  assert.doesNotMatch(html, /CHEX Computers/i);
+});
+
+test("exports the primary shopping and trust routes", async () => {
+  const [shop, whyVintech] = await Promise.all([
+    readExportedPage("shop.html"),
+    readExportedPage("why-vintech.html"),
+  ]);
+
+  assert.match(shop, /Shop premium laptops/i);
+  assert.match(whyVintech, /Why Vintech/i);
 });

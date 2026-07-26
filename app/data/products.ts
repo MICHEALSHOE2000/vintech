@@ -137,9 +137,9 @@ function imagesFor(name: string) {
   if (upper.includes("LATITUDE 7430")) return ["/products/dell-latitude-7430-1.jpg", "/products/dell-latitude-7430-2.jpg", "/products/dell-latitude-7430-3.jpg"];
   if (upper.includes("LATITUDE 7490")) return ["/products/dell-latitude-7490-1.jpg", "/products/dell-latitude-7490-2.jpg", "/products/dell-latitude-7490-3.jpg"];
   if (upper.includes("PRECISION 7550")) return ["/products/dell-precision-7550-1.webp", "/products/dell-precision-7550-2.webp", "/products/dell-precision-7550-3.webp"];
-  // Use a model-specific image search thumbnail when CHEX has not supplied a
+  // Use a model-specific image search thumbnail when Vintech has not supplied a
   // photographed unit yet. Keeping this as an image-only URL means catalogue
-  // cards never link customers away from the CHEX website.
+  // cards never link customers away from the Vintech website.
   return [`https://tse2.mm.bing.net/th?q=${encodeURIComponent(`${name} laptop product photo`)}&w=900&h=650&c=7&rs=1&p=0`];
 }
 
@@ -199,7 +199,7 @@ export const products: Product[] = (catalogue as CatalogueRow[]).map((row, index
     useCases: useCasesFor(category),
     images: imagesFor(row.name),
     shortDescription: details,
-    fullDescription: `${row.name} is listed in the CHEX foreign-used laptop catalogue. Review the published specifications below and contact CHEX to confirm the exact available unit, condition and delivery options.`,
+    fullDescription: `${row.name} is listed in the Vintech Global foreign-used laptop catalogue. Review the published specifications below and contact Vintech to confirm the exact available unit, condition and delivery options.`,
   };
 });
 

@@ -18,7 +18,7 @@ const pages = text.split("\f");
 const records = [];
 
 for (const page of pages) {
-  const header = page.match(/^\s*(\d+)\.\s+(.+?)\s+\((CHEX-LAP-\d{4})\)\s*$/m);
+  const header = page.match(/^\s*(\d+)\.\s+(.+?)\s+\(([A-Z]+-LAP-\d{4})\)\s*$/m);
   if (!header) continue;
 
   const fields = {};
@@ -26,7 +26,7 @@ for (const page of pages) {
   const lines = page.slice((header.index ?? 0) + header[0].length).split(/\r?\n/);
 
   for (const line of lines) {
-    if (/CHEX Computers - NeoStore|^\s*Page \d+\s*$/.test(line)) break;
+    if (/Computers - NeoStore|^\s*Page \d+\s*$/.test(line)) break;
     const matchedLabel = labels.find((label) => new RegExp(`^\\s*${label.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}\\s{2,}`).test(line));
     if (matchedLabel) {
       current = matchedLabel;

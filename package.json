@@ -1,5 +1,5 @@
 {
-  "name": "chex-computers",
+  "name": "vintech-global",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -31,5 +31,5 @@
     "typescript": "5.9.3"
   },
   "type": "module",
-  "displayName": "CHEX COMPUTERS LTD"
+  "displayName": "VINTECH GLOBAL COMMUNICATIONS & SERVICES LTD"
 }

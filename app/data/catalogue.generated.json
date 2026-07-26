@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "id": "CHEX-LAP-0001",
+    "id": "VINTECH-LAP-0001",
     "name": "Dell Latitude 5530",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -26,7 +26,7 @@
   },
   {
     "number": 2,
-    "id": "CHEX-LAP-0002",
+    "id": "VINTECH-LAP-0002",
     "name": "Dell Precision 5550(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -51,7 +51,7 @@
   },
   {
     "number": 3,
-    "id": "CHEX-LAP-0003",
+    "id": "VINTECH-LAP-0003",
     "name": "HP Zbook Power G7",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -76,7 +76,7 @@
   },
   {
     "number": 4,
-    "id": "CHEX-LAP-0004",
+    "id": "VINTECH-LAP-0004",
     "name": "HP Zbook Firefly 14 G8",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -101,7 +101,7 @@
   },
   {
     "number": 5,
-    "id": "CHEX-LAP-0005",
+    "id": "VINTECH-LAP-0005",
     "name": "HP Zbook 15 G6",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -126,7 +126,7 @@
   },
   {
     "number": 6,
-    "id": "CHEX-LAP-0006",
+    "id": "VINTECH-LAP-0006",
     "name": "Dell XPS 15 9500(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -151,7 +151,7 @@
   },
   {
     "number": 7,
-    "id": "CHEX-LAP-0007",
+    "id": "VINTECH-LAP-0007",
     "name": "Dell XPS 15 7590",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -176,7 +176,7 @@
   },
   {
     "number": 8,
-    "id": "CHEX-LAP-0008",
+    "id": "VINTECH-LAP-0008",
     "name": "HP Zbook Firefly 15 G7(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -201,7 +201,7 @@
   },
   {
     "number": 9,
-    "id": "CHEX-LAP-0009",
+    "id": "VINTECH-LAP-0009",
     "name": "Dell Latitude 5420",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -226,7 +226,7 @@
   },
   {
     "number": 10,
-    "id": "CHEX-LAP-0010",
+    "id": "VINTECH-LAP-0010",
     "name": "MSI GE66 Raider",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -251,7 +251,7 @@
   },
   {
     "number": 11,
-    "id": "CHEX-LAP-0011",
+    "id": "VINTECH-LAP-0011",
     "name": "HP Spectre 13 x360",
     "Stock": "In Stock",
     "Release year": "Late 2020 / 2021",
@@ -276,7 +276,7 @@
   },
   {
     "number": 12,
-    "id": "CHEX-LAP-0012",
+    "id": "VINTECH-LAP-0012",
     "name": "Alienware X17 R2",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -301,7 +301,7 @@
   },
   {
     "number": 13,
-    "id": "CHEX-LAP-0013",
+    "id": "VINTECH-LAP-0013",
     "name": "Dell Latitude 9410x360",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -326,7 +326,7 @@
   },
   {
     "number": 14,
-    "id": "CHEX-LAP-0014",
+    "id": "VINTECH-LAP-0014",
     "name": "HP ProBook 440 G8",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -351,7 +351,7 @@
   },
   {
     "number": 15,
-    "id": "CHEX-LAP-0015",
+    "id": "VINTECH-LAP-0015",
     "name": "HP EliteBook 1040 G8x360",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -376,7 +376,7 @@
   },
   {
     "number": 16,
-    "id": "CHEX-LAP-0016",
+    "id": "VINTECH-LAP-0016",
     "name": "HP ZBook Firefly 15 G8",
     "Stock": "Out of Stock",
     "Release year": "2021",
@@ -401,7 +401,7 @@
   },
   {
     "number": 17,
-    "id": "CHEX-LAP-0017",
+    "id": "VINTECH-LAP-0017",
     "name": "Acer Nitro V16 AI Gaming Laptop",
     "Stock": "In Stock",
     "Release year": "2025",
@@ -426,7 +426,7 @@
   },
   {
     "number": 18,
-    "id": "CHEX-LAP-0018",
+    "id": "VINTECH-LAP-0018",
     "name": "HP Omen Slim 16 Gaming Laptop",
     "Stock": "In Stock",
     "Release year": "2025",
@@ -451,7 +451,7 @@
   },
   {
     "number": 19,
-    "id": "CHEX-LAP-0019",
+    "id": "VINTECH-LAP-0019",
     "name": "Asus Rog Zephyrus M16",
     "Stock": "In Stock",
     "Release year": "2023",
@@ -476,7 +476,7 @@
   },
   {
     "number": 20,
-    "id": "CHEX-LAP-0020",
+    "id": "VINTECH-LAP-0020",
     "name": "Lenovo Legion Pro 5 Gen-10",
     "Stock": "In Stock",
     "Release year": "2025",
@@ -501,7 +501,7 @@
   },
   {
     "number": 21,
-    "id": "CHEX-LAP-0021",
+    "id": "VINTECH-LAP-0021",
     "name": "HP ProBook 430 G6",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -526,7 +526,7 @@
   },
   {
     "number": 22,
-    "id": "CHEX-LAP-0022",
+    "id": "VINTECH-LAP-0022",
     "name": "Dell XPS 13 Plus 9320",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -551,7 +551,7 @@
   },
   {
     "number": 23,
-    "id": "CHEX-LAP-0023",
+    "id": "VINTECH-LAP-0023",
     "name": "HP ProBook 435 G8x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -576,7 +576,7 @@
   },
   {
     "number": 24,
-    "id": "CHEX-LAP-0024",
+    "id": "VINTECH-LAP-0024",
     "name": "HP EliteBook 840 G11(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -601,7 +601,7 @@
   },
   {
     "number": 25,
-    "id": "CHEX-LAP-0025",
+    "id": "VINTECH-LAP-0025",
     "name": "MSI Stealth 14 Studio A13VF",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -626,7 +626,7 @@
   },
   {
     "number": 26,
-    "id": "CHEX-LAP-0026",
+    "id": "VINTECH-LAP-0026",
     "name": "MSI Katana GF66",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -651,7 +651,7 @@
   },
   {
     "number": 27,
-    "id": "CHEX-LAP-0027",
+    "id": "VINTECH-LAP-0027",
     "name": "Alienware M15 R7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -676,7 +676,7 @@
   },
   {
     "number": 28,
-    "id": "CHEX-LAP-0028",
+    "id": "VINTECH-LAP-0028",
     "name": "Dell Latitude 5300 2-in-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -701,7 +701,7 @@
   },
   {
     "number": 29,
-    "id": "CHEX-LAP-0029",
+    "id": "VINTECH-LAP-0029",
     "name": "HP EliteBook 650 G9",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -726,7 +726,7 @@
   },
   {
     "number": 30,
-    "id": "CHEX-LAP-0030",
+    "id": "VINTECH-LAP-0030",
     "name": "HP EliteBook 830 G6x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -751,7 +751,7 @@
   },
   {
     "number": 31,
-    "id": "CHEX-LAP-0031",
+    "id": "VINTECH-LAP-0031",
     "name": "Dell Latitude 7200 2-in-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -776,7 +776,7 @@
   },
   {
     "number": 32,
-    "id": "CHEX-LAP-0032",
+    "id": "VINTECH-LAP-0032",
     "name": "Lenovo Thinkpad P14s Gen 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -801,7 +801,7 @@
   },
   {
     "number": 33,
-    "id": "CHEX-LAP-0033",
+    "id": "VINTECH-LAP-0033",
     "name": "Dell XPS 17 9710(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -826,7 +826,7 @@
   },
   {
     "number": 34,
-    "id": "CHEX-LAP-0034",
+    "id": "VINTECH-LAP-0034",
     "name": "HP Omen 16 Gaming Laptop",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -851,7 +851,7 @@
   },
   {
     "number": 35,
-    "id": "CHEX-LAP-0035",
+    "id": "VINTECH-LAP-0035",
     "name": "HP EliteBook 845 G8(Touchscreen)",
     "Stock": "Out of Stock",
     "Release year": "2021",
@@ -876,7 +876,7 @@
   },
   {
     "number": 36,
-    "id": "CHEX-LAP-0036",
+    "id": "VINTECH-LAP-0036",
     "name": "HP EliteBook 1030 G3x360",
     "Stock": "In Stock",
     "Release year": "2018",
@@ -901,7 +901,7 @@
   },
   {
     "number": 37,
-    "id": "CHEX-LAP-0037",
+    "id": "VINTECH-LAP-0037",
     "name": "Dell Latitude 3520",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -926,7 +926,7 @@
   },
   {
     "number": 38,
-    "id": "CHEX-LAP-0038",
+    "id": "VINTECH-LAP-0038",
     "name": "Dell Latitude 7400 2-in-1",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -951,7 +951,7 @@
   },
   {
     "number": 39,
-    "id": "CHEX-LAP-0039",
+    "id": "VINTECH-LAP-0039",
     "name": "HP EliteBook 830 G6",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -976,7 +976,7 @@
   },
   {
     "number": 40,
-    "id": "CHEX-LAP-0040",
+    "id": "VINTECH-LAP-0040",
     "name": "HP Probook 640 G5",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -1001,7 +1001,7 @@
   },
   {
     "number": 41,
-    "id": "CHEX-LAP-0041",
+    "id": "VINTECH-LAP-0041",
     "name": "Lenovo Thinkpad T14 Gen 1",
     "Stock": "In Stock",
     "Release year": "2020",
@@ -1026,7 +1026,7 @@
   },
   {
     "number": 42,
-    "id": "CHEX-LAP-0042",
+    "id": "VINTECH-LAP-0042",
     "name": "Dell Precision 5540",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -1051,7 +1051,7 @@
   },
   {
     "number": 43,
-    "id": "CHEX-LAP-0043",
+    "id": "VINTECH-LAP-0043",
     "name": "HP EliteBook 1040 G10x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1076,7 +1076,7 @@
   },
   {
     "number": 44,
-    "id": "CHEX-LAP-0044",
+    "id": "VINTECH-LAP-0044",
     "name": "Dell Latitude 7430 2-in-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1101,7 +1101,7 @@
   },
   {
     "number": 45,
-    "id": "CHEX-LAP-0045",
+    "id": "VINTECH-LAP-0045",
     "name": "DELL PRECISION 7550",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1126,7 +1126,7 @@
   },
   {
     "number": 46,
-    "id": "CHEX-LAP-0046",
+    "id": "VINTECH-LAP-0046",
     "name": "HP ELITEBOOK 840 G9",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1151,7 +1151,7 @@
   },
   {
     "number": 47,
-    "id": "CHEX-LAP-0047",
+    "id": "VINTECH-LAP-0047",
     "name": "Lenovo Thinkpad X1 Yoga Gen 6",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -1176,7 +1176,7 @@
   },
   {
     "number": 48,
-    "id": "CHEX-LAP-0048",
+    "id": "VINTECH-LAP-0048",
     "name": "DELL LATITUDE 5310",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1201,7 +1201,7 @@
   },
   {
     "number": 49,
-    "id": "CHEX-LAP-0049",
+    "id": "VINTECH-LAP-0049",
     "name": "DELL XPS 15 9510",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1226,7 +1226,7 @@
   },
   {
     "number": 50,
-    "id": "CHEX-LAP-0050",
+    "id": "VINTECH-LAP-0050",
     "name": "MICROSOFT SURFACE STUDIO GEN 1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1251,7 +1251,7 @@
   },
   {
     "number": 51,
-    "id": "CHEX-LAP-0051",
+    "id": "VINTECH-LAP-0051",
     "name": "MSI CYBORG 14 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1276,7 +1276,7 @@
   },
   {
     "number": 52,
-    "id": "CHEX-LAP-0052",
+    "id": "VINTECH-LAP-0052",
     "name": "LENOVO LEGION 5I GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1301,7 +1301,7 @@
   },
   {
     "number": 53,
-    "id": "CHEX-LAP-0053",
+    "id": "VINTECH-LAP-0053",
     "name": "LENOVO LEGION 7I GEN-9",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1326,7 +1326,7 @@
   },
   {
     "number": 54,
-    "id": "CHEX-LAP-0054",
+    "id": "VINTECH-LAP-0054",
     "name": "ALIENWARE X16 R1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1351,7 +1351,7 @@
   },
   {
     "number": 55,
-    "id": "CHEX-LAP-0055",
+    "id": "VINTECH-LAP-0055",
     "name": "ASUS ROG ZEPHYRUS G16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1376,7 +1376,7 @@
   },
   {
     "number": 56,
-    "id": "CHEX-LAP-0056",
+    "id": "VINTECH-LAP-0056",
     "name": "ASUS VIVIBOOK 15 PRO",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1401,7 +1401,7 @@
   },
   {
     "number": 57,
-    "id": "CHEX-LAP-0057",
+    "id": "VINTECH-LAP-0057",
     "name": "ASUS ROG ZEPHYRUS G16",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -1426,7 +1426,7 @@
   },
   {
     "number": 58,
-    "id": "CHEX-LAP-0058",
+    "id": "VINTECH-LAP-0058",
     "name": "ASUS ZENBOOK S13 OLED",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1451,7 +1451,7 @@
   },
   {
     "number": 59,
-    "id": "CHEX-LAP-0059",
+    "id": "VINTECH-LAP-0059",
     "name": "ASUS ROG ZEPHYRUS G16 2025",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1476,7 +1476,7 @@
   },
   {
     "number": 60,
-    "id": "CHEX-LAP-0060",
+    "id": "VINTECH-LAP-0060",
     "name": "ASUS ROG ZEPHYRUS G16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1501,7 +1501,7 @@
   },
   {
     "number": 61,
-    "id": "CHEX-LAP-0061",
+    "id": "VINTECH-LAP-0061",
     "name": "HP VICTUS 16 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1526,7 +1526,7 @@
   },
   {
     "number": 62,
-    "id": "CHEX-LAP-0062",
+    "id": "VINTECH-LAP-0062",
     "name": "RAZER BLADE 14 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1551,7 +1551,7 @@
   },
   {
     "number": 63,
-    "id": "CHEX-LAP-0063",
+    "id": "VINTECH-LAP-0063",
     "name": "LENOVO LEGION PRO 5",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1576,7 +1576,7 @@
   },
   {
     "number": 64,
-    "id": "CHEX-LAP-0064",
+    "id": "VINTECH-LAP-0064",
     "name": "HP OMEN 16 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1601,7 +1601,7 @@
   },
   {
     "number": 65,
-    "id": "CHEX-LAP-0065",
+    "id": "VINTECH-LAP-0065",
     "name": "HP OMEN GAMING LAPTOP-15",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1626,7 +1626,7 @@
   },
   {
     "number": 66,
-    "id": "CHEX-LAP-0066",
+    "id": "VINTECH-LAP-0066",
     "name": "HP OMEN GAMING LAPTOP-15",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1651,7 +1651,7 @@
   },
   {
     "number": 67,
-    "id": "CHEX-LAP-0067",
+    "id": "VINTECH-LAP-0067",
     "name": "HP OMEN TRANSCEND 14 OLED",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1676,7 +1676,7 @@
   },
   {
     "number": 68,
-    "id": "CHEX-LAP-0068",
+    "id": "VINTECH-LAP-0068",
     "name": "Alienware M15 R7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1701,7 +1701,7 @@
   },
   {
     "number": 69,
-    "id": "CHEX-LAP-0069",
+    "id": "VINTECH-LAP-0069",
     "name": "ALIENWARE 16 AURORA",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1726,7 +1726,7 @@
   },
   {
     "number": 70,
-    "id": "CHEX-LAP-0070",
+    "id": "VINTECH-LAP-0070",
     "name": "ASUS TUF GAMING A16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1751,7 +1751,7 @@
   },
   {
     "number": 71,
-    "id": "CHEX-LAP-0071",
+    "id": "VINTECH-LAP-0071",
     "name": "ACER NITRO 5 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1776,7 +1776,7 @@
   },
   {
     "number": 72,
-    "id": "CHEX-LAP-0072",
+    "id": "VINTECH-LAP-0072",
     "name": "HP ELITEBOOK 835 G8",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -1801,7 +1801,7 @@
   },
   {
     "number": 73,
-    "id": "CHEX-LAP-0073",
+    "id": "VINTECH-LAP-0073",
     "name": "HP PROBOOK 14 440 G11",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1826,7 +1826,7 @@
   },
   {
     "number": 74,
-    "id": "CHEX-LAP-0074",
+    "id": "VINTECH-LAP-0074",
     "name": "DELL PRO 14 PLUS 2-IN-1",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -1851,7 +1851,7 @@
   },
   {
     "number": 75,
-    "id": "CHEX-LAP-0075",
+    "id": "VINTECH-LAP-0075",
     "name": "DELL LATITUDE 9420 2-IN-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1876,7 +1876,7 @@
   },
   {
     "number": 76,
-    "id": "CHEX-LAP-0076",
+    "id": "VINTECH-LAP-0076",
     "name": "MICROSOFT SURFACE LAPTOP 7TH EDITION",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -1901,7 +1901,7 @@
   },
   {
     "number": 77,
-    "id": "CHEX-LAP-0077",
+    "id": "VINTECH-LAP-0077",
     "name": "MICROSOFT SURFACE LAPTOP STUDIO 2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1926,7 +1926,7 @@
   },
   {
     "number": 78,
-    "id": "CHEX-LAP-0078",
+    "id": "VINTECH-LAP-0078",
     "name": "MICROSOFT SURFACE LAPTOP STUDIO GEN-2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -1951,7 +1951,7 @@
   },
   {
     "number": 79,
-    "id": "CHEX-LAP-0079",
+    "id": "VINTECH-LAP-0079",
     "name": "HP PROBOOK 465 G11",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -1976,7 +1976,7 @@
   },
   {
     "number": 80,
-    "id": "CHEX-LAP-0080",
+    "id": "VINTECH-LAP-0080",
     "name": "HP ELITEBOOK 630 G11",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2001,7 +2001,7 @@
   },
   {
     "number": 81,
-    "id": "CHEX-LAP-0081",
+    "id": "VINTECH-LAP-0081",
     "name": "ALIENWARE M16 R2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2026,7 +2026,7 @@
   },
   {
     "number": 82,
-    "id": "CHEX-LAP-0082",
+    "id": "VINTECH-LAP-0082",
     "name": "HP OMEN GAMING LAPTOP 16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2051,7 +2051,7 @@
   },
   {
     "number": 83,
-    "id": "CHEX-LAP-0083",
+    "id": "VINTECH-LAP-0083",
     "name": "ASUS ROG STRIX G16",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2076,7 +2076,7 @@
   },
   {
     "number": 84,
-    "id": "CHEX-LAP-0084",
+    "id": "VINTECH-LAP-0084",
     "name": "MSI Raider GE68HX",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2101,7 +2101,7 @@
   },
   {
     "number": 85,
-    "id": "CHEX-LAP-0085",
+    "id": "VINTECH-LAP-0085",
     "name": "ALIENWARE M16 R2",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2126,7 +2126,7 @@
   },
   {
     "number": 86,
-    "id": "CHEX-LAP-0086",
+    "id": "VINTECH-LAP-0086",
     "name": "DELL G15 5530",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2151,7 +2151,7 @@
   },
   {
     "number": 87,
-    "id": "CHEX-LAP-0087",
+    "id": "VINTECH-LAP-0087",
     "name": "LENOVO LEGION PRO 7 GEN-9",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2176,7 +2176,7 @@
   },
   {
     "number": 88,
-    "id": "CHEX-LAP-0088",
+    "id": "VINTECH-LAP-0088",
     "name": "Dell G16 7630",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2201,7 +2201,7 @@
   },
   {
     "number": 89,
-    "id": "CHEX-LAP-0089",
+    "id": "VINTECH-LAP-0089",
     "name": "ASUS ROG STRIX G17",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2226,7 +2226,7 @@
   },
   {
     "number": 90,
-    "id": "CHEX-LAP-0090",
+    "id": "VINTECH-LAP-0090",
     "name": "LENOVO YOGA BOOK 9i",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2251,7 +2251,7 @@
   },
   {
     "number": 91,
-    "id": "CHEX-LAP-0091",
+    "id": "VINTECH-LAP-0091",
     "name": "ALIENWARE M16 R1",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2276,7 +2276,7 @@
   },
   {
     "number": 92,
-    "id": "CHEX-LAP-0092",
+    "id": "VINTECH-LAP-0092",
     "name": "ASUS ROG FLOW X13",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2301,7 +2301,7 @@
   },
   {
     "number": 93,
-    "id": "CHEX-LAP-0093",
+    "id": "VINTECH-LAP-0093",
     "name": "Alienware M18 R2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2326,7 +2326,7 @@
   },
   {
     "number": 94,
-    "id": "CHEX-LAP-0094",
+    "id": "VINTECH-LAP-0094",
     "name": "DELL G15 5530",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2351,7 +2351,7 @@
   },
   {
     "number": 95,
-    "id": "CHEX-LAP-0095",
+    "id": "VINTECH-LAP-0095",
     "name": "Asus Rog Zephyrus G14",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2376,7 +2376,7 @@
   },
   {
     "number": 96,
-    "id": "CHEX-LAP-0096",
+    "id": "VINTECH-LAP-0096",
     "name": "ASUS ROG ZEPHYRUS G14",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2401,7 +2401,7 @@
   },
   {
     "number": 97,
-    "id": "CHEX-LAP-0097",
+    "id": "VINTECH-LAP-0097",
     "name": "HP VICTUS 16 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2426,7 +2426,7 @@
   },
   {
     "number": 98,
-    "id": "CHEX-LAP-0098",
+    "id": "VINTECH-LAP-0098",
     "name": "MICROSOFT SURFACE PRO 9",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2451,7 +2451,7 @@
   },
   {
     "number": 99,
-    "id": "CHEX-LAP-0099",
+    "id": "VINTECH-LAP-0099",
     "name": "MICROSOFT SURFACE PRO 8",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2476,7 +2476,7 @@
   },
   {
     "number": 100,
-    "id": "CHEX-LAP-0100",
+    "id": "VINTECH-LAP-0100",
     "name": "MICROSOFT SURFACE PRO 7+",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2501,7 +2501,7 @@
   },
   {
     "number": 101,
-    "id": "CHEX-LAP-0101",
+    "id": "VINTECH-LAP-0101",
     "name": "MICROSOFT SURFACE PRO 7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2526,7 +2526,7 @@
   },
   {
     "number": 102,
-    "id": "CHEX-LAP-0102",
+    "id": "VINTECH-LAP-0102",
     "name": "MICROSOFT SURFACE PRO 7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2551,7 +2551,7 @@
   },
   {
     "number": 103,
-    "id": "CHEX-LAP-0103",
+    "id": "VINTECH-LAP-0103",
     "name": "MICROSOFT SURFACE LAPTOP 2",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -2576,7 +2576,7 @@
   },
   {
     "number": 104,
-    "id": "CHEX-LAP-0104",
+    "id": "VINTECH-LAP-0104",
     "name": "MICROSOFT SURFACE LAPTOP 5",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2601,7 +2601,7 @@
   },
   {
     "number": 105,
-    "id": "CHEX-LAP-0105",
+    "id": "VINTECH-LAP-0105",
     "name": "MICROSOFT SURFACE LAPTOP 4",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2626,7 +2626,7 @@
   },
   {
     "number": 106,
-    "id": "CHEX-LAP-0106",
+    "id": "VINTECH-LAP-0106",
     "name": "Microsoft Surface Laptop 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2651,7 +2651,7 @@
   },
   {
     "number": 107,
-    "id": "CHEX-LAP-0107",
+    "id": "VINTECH-LAP-0107",
     "name": "Acer Predator Helios Neo 16",
     "Stock": "In Stock",
     "Release year": "2024",
@@ -2676,7 +2676,7 @@
   },
   {
     "number": 108,
-    "id": "CHEX-LAP-0108",
+    "id": "VINTECH-LAP-0108",
     "name": "ALIENWARE M15 R2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2701,7 +2701,7 @@
   },
   {
     "number": 109,
-    "id": "CHEX-LAP-0109",
+    "id": "VINTECH-LAP-0109",
     "name": "Microsoft Surface Laptop 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2726,7 +2726,7 @@
   },
   {
     "number": 110,
-    "id": "CHEX-LAP-0110",
+    "id": "VINTECH-LAP-0110",
     "name": "MICROSOFT SURFACE BOOK 3",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -2751,7 +2751,7 @@
   },
   {
     "number": 111,
-    "id": "CHEX-LAP-0111",
+    "id": "VINTECH-LAP-0111",
     "name": "MACBOOK PRO 2019",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2776,7 +2776,7 @@
   },
   {
     "number": 112,
-    "id": "CHEX-LAP-0112",
+    "id": "VINTECH-LAP-0112",
     "name": "LENOVO THINKPAD X1 EXTREME GEN 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2801,7 +2801,7 @@
   },
   {
     "number": 113,
-    "id": "CHEX-LAP-0113",
+    "id": "VINTECH-LAP-0113",
     "name": "LENOVO THINKPAD X1 CARBON",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2826,7 +2826,7 @@
   },
   {
     "number": 114,
-    "id": "CHEX-LAP-0114",
+    "id": "VINTECH-LAP-0114",
     "name": "LENOVO THINKPAD T490",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2851,7 +2851,7 @@
   },
   {
     "number": 115,
-    "id": "CHEX-LAP-0115",
+    "id": "VINTECH-LAP-0115",
     "name": "LENOVO THINKPAD T14S GEN4",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2876,7 +2876,7 @@
   },
   {
     "number": 116,
-    "id": "CHEX-LAP-0116",
+    "id": "VINTECH-LAP-0116",
     "name": "LENOVO THINKPAD T14S GEN 2I",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2901,7 +2901,7 @@
   },
   {
     "number": 117,
-    "id": "CHEX-LAP-0117",
+    "id": "VINTECH-LAP-0117",
     "name": "LENOVO THINKPAD T14 GEN 5",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -2926,7 +2926,7 @@
   },
   {
     "number": 118,
-    "id": "CHEX-LAP-0118",
+    "id": "VINTECH-LAP-0118",
     "name": "Lenovo ThinkPad T14 Gen 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2951,7 +2951,7 @@
   },
   {
     "number": 119,
-    "id": "CHEX-LAP-0119",
+    "id": "VINTECH-LAP-0119",
     "name": "Lenovo ThinkPad T14 Gen 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -2976,7 +2976,7 @@
   },
   {
     "number": 120,
-    "id": "CHEX-LAP-0120",
+    "id": "VINTECH-LAP-0120",
     "name": "Lenovo ThinkPad T14 Gen 2i",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3001,7 +3001,7 @@
   },
   {
     "number": 121,
-    "id": "CHEX-LAP-0121",
+    "id": "VINTECH-LAP-0121",
     "name": "Lenovo ThinkPad T14 Gen 1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3026,7 +3026,7 @@
   },
   {
     "number": 122,
-    "id": "CHEX-LAP-0122",
+    "id": "VINTECH-LAP-0122",
     "name": "Lenovo ThinkPad P1 Gen 5",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3051,7 +3051,7 @@
   },
   {
     "number": 123,
-    "id": "CHEX-LAP-0123",
+    "id": "VINTECH-LAP-0123",
     "name": "Lenovo ThinkBook 13s Gen 2",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3076,7 +3076,7 @@
   },
   {
     "number": 124,
-    "id": "CHEX-LAP-0124",
+    "id": "VINTECH-LAP-0124",
     "name": "LENOVO THINKBOOK YOGA 14s",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3101,7 +3101,7 @@
   },
   {
     "number": 125,
-    "id": "CHEX-LAP-0125",
+    "id": "VINTECH-LAP-0125",
     "name": "LENOVO THINKBOOK 14 GEN 7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3126,7 +3126,7 @@
   },
   {
     "number": 126,
-    "id": "CHEX-LAP-0126",
+    "id": "VINTECH-LAP-0126",
     "name": "LENOVO THINKBOOK 14 G2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3151,7 +3151,7 @@
   },
   {
     "number": 127,
-    "id": "CHEX-LAP-0127",
+    "id": "VINTECH-LAP-0127",
     "name": "Lenovo LOQ 15",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3176,7 +3176,7 @@
   },
   {
     "number": 128,
-    "id": "CHEX-LAP-0128",
+    "id": "VINTECH-LAP-0128",
     "name": "LENOVO LEGION S7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3201,7 +3201,7 @@
   },
   {
     "number": 129,
-    "id": "CHEX-LAP-0129",
+    "id": "VINTECH-LAP-0129",
     "name": "LENOVO LEGION 5 PRO",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3226,7 +3226,7 @@
   },
   {
     "number": 130,
-    "id": "CHEX-LAP-0130",
+    "id": "VINTECH-LAP-0130",
     "name": "HP VICTUS LAPTOP 15",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3251,7 +3251,7 @@
   },
   {
     "number": 131,
-    "id": "CHEX-LAP-0131",
+    "id": "VINTECH-LAP-0131",
     "name": "HP PROBOOK 640 G8",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3276,7 +3276,7 @@
   },
   {
     "number": 132,
-    "id": "CHEX-LAP-0132",
+    "id": "VINTECH-LAP-0132",
     "name": "HP PROBOOK 450 G10",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3301,7 +3301,7 @@
   },
   {
     "number": 133,
-    "id": "CHEX-LAP-0133",
+    "id": "VINTECH-LAP-0133",
     "name": "HP PROBOOK 440 G8",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3326,7 +3326,7 @@
   },
   {
     "number": 134,
-    "id": "CHEX-LAP-0134",
+    "id": "VINTECH-LAP-0134",
     "name": "HP PROBOOK 440 G11",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3351,7 +3351,7 @@
   },
   {
     "number": 135,
-    "id": "CHEX-LAP-0135",
+    "id": "VINTECH-LAP-0135",
     "name": "HP PAVILON 16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3376,7 +3376,7 @@
   },
   {
     "number": 136,
-    "id": "CHEX-LAP-0136",
+    "id": "VINTECH-LAP-0136",
     "name": "HP PAVILION LAPTOP 15-EGOXXX",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3401,7 +3401,7 @@
   },
   {
     "number": 137,
-    "id": "CHEX-LAP-0137",
+    "id": "VINTECH-LAP-0137",
     "name": "HP ENVY LAPTOP 16x360",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3426,7 +3426,7 @@
   },
   {
     "number": 138,
-    "id": "CHEX-LAP-0138",
+    "id": "VINTECH-LAP-0138",
     "name": "HP ELITEBOOK 850 G7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3451,7 +3451,7 @@
   },
   {
     "number": 139,
-    "id": "CHEX-LAP-0139",
+    "id": "VINTECH-LAP-0139",
     "name": "HP ELITEBOOK 840 G8",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3476,7 +3476,7 @@
   },
   {
     "number": 140,
-    "id": "CHEX-LAP-0140",
+    "id": "VINTECH-LAP-0140",
     "name": "HP ELITEBOOK 840 G5",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3501,7 +3501,7 @@
   },
   {
     "number": 141,
-    "id": "CHEX-LAP-0141",
+    "id": "VINTECH-LAP-0141",
     "name": "HP ELITEBOOK 830 G8",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -3526,7 +3526,7 @@
   },
   {
     "number": 142,
-    "id": "CHEX-LAP-0142",
+    "id": "VINTECH-LAP-0142",
     "name": "HP ELITEBOOK 830 G8",
     "Stock": "In Stock",
     "Release year": "2021",
@@ -3551,7 +3551,7 @@
   },
   {
     "number": 143,
-    "id": "CHEX-LAP-0143",
+    "id": "VINTECH-LAP-0143",
     "name": "HP ELITEBOOK 830 G7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3576,7 +3576,7 @@
   },
   {
     "number": 144,
-    "id": "CHEX-LAP-0144",
+    "id": "VINTECH-LAP-0144",
     "name": "HP ELITEBOOK 830 G7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3601,7 +3601,7 @@
   },
   {
     "number": 145,
-    "id": "CHEX-LAP-0145",
+    "id": "VINTECH-LAP-0145",
     "name": "GANGS ALIENWARE 18 AREA-51",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -3626,7 +3626,7 @@
   },
   {
     "number": 146,
-    "id": "CHEX-LAP-0146",
+    "id": "VINTECH-LAP-0146",
     "name": "DELL XPS13 7390",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3651,7 +3651,7 @@
   },
   {
     "number": 147,
-    "id": "CHEX-LAP-0147",
+    "id": "VINTECH-LAP-0147",
     "name": "DELL XPS 15 9520",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3676,7 +3676,7 @@
   },
   {
     "number": 148,
-    "id": "CHEX-LAP-0148",
+    "id": "VINTECH-LAP-0148",
     "name": "DELL XPS 13 9370",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3701,7 +3701,7 @@
   },
   {
     "number": 149,
-    "id": "CHEX-LAP-0149",
+    "id": "VINTECH-LAP-0149",
     "name": "DELL XPS 13 7390",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3726,7 +3726,7 @@
   },
   {
     "number": 150,
-    "id": "CHEX-LAP-0150",
+    "id": "VINTECH-LAP-0150",
     "name": "DELL PRO 14 PC14250",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3751,7 +3751,7 @@
   },
   {
     "number": 151,
-    "id": "CHEX-LAP-0151",
+    "id": "VINTECH-LAP-0151",
     "name": "DELL PRECISION 5680",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -3776,7 +3776,7 @@
   },
   {
     "number": 152,
-    "id": "CHEX-LAP-0152",
+    "id": "VINTECH-LAP-0152",
     "name": "DELL PRECISION 5560",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3801,7 +3801,7 @@
   },
   {
     "number": 153,
-    "id": "CHEX-LAP-0153",
+    "id": "VINTECH-LAP-0153",
     "name": "DELL PRECISION 5540",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -3826,7 +3826,7 @@
   },
   {
     "number": 154,
-    "id": "CHEX-LAP-0154",
+    "id": "VINTECH-LAP-0154",
     "name": "Dell Precision 5470",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3851,7 +3851,7 @@
   },
   {
     "number": 155,
-    "id": "CHEX-LAP-0155",
+    "id": "VINTECH-LAP-0155",
     "name": "DELL LATITUDE 7490",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3876,7 +3876,7 @@
   },
   {
     "number": 156,
-    "id": "CHEX-LAP-0156",
+    "id": "VINTECH-LAP-0156",
     "name": "DELL LATITUDE 7490",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3901,7 +3901,7 @@
   },
   {
     "number": 157,
-    "id": "CHEX-LAP-0157",
+    "id": "VINTECH-LAP-0157",
     "name": "Dell Latitude 7440",
     "Stock": "In Stock",
     "Release year": "2023",
@@ -3926,7 +3926,7 @@
   },
   {
     "number": 158,
-    "id": "CHEX-LAP-0158",
+    "id": "VINTECH-LAP-0158",
     "name": "DELL LATITUDE 5440",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3951,7 +3951,7 @@
   },
   {
     "number": 159,
-    "id": "CHEX-LAP-0159",
+    "id": "VINTECH-LAP-0159",
     "name": "Dell Latitude 5440",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -3976,7 +3976,7 @@
   },
   {
     "number": 160,
-    "id": "CHEX-LAP-0160",
+    "id": "VINTECH-LAP-0160",
     "name": "Dell Latitude 5430",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4001,7 +4001,7 @@
   },
   {
     "number": 161,
-    "id": "CHEX-LAP-0161",
+    "id": "VINTECH-LAP-0161",
     "name": "DELL LATITUDE 5400",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4026,7 +4026,7 @@
   },
   {
     "number": 162,
-    "id": "CHEX-LAP-0162",
+    "id": "VINTECH-LAP-0162",
     "name": "DELL LATITUDE 5400",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4051,7 +4051,7 @@
   },
   {
     "number": 163,
-    "id": "CHEX-LAP-0163",
+    "id": "VINTECH-LAP-0163",
     "name": "DELL LATITUDE 5300",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4076,7 +4076,7 @@
   },
   {
     "number": 164,
-    "id": "CHEX-LAP-0164",
+    "id": "VINTECH-LAP-0164",
     "name": "DELL LATITUDE 3550",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4101,7 +4101,7 @@
   },
   {
     "number": 165,
-    "id": "CHEX-LAP-0165",
+    "id": "VINTECH-LAP-0165",
     "name": "DELL G15 5535",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4126,7 +4126,7 @@
   },
   {
     "number": 166,
-    "id": "CHEX-LAP-0166",
+    "id": "VINTECH-LAP-0166",
     "name": "APPLE MACBOOK PRO 2020",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4151,7 +4151,7 @@
   },
   {
     "number": 167,
-    "id": "CHEX-LAP-0167",
+    "id": "VINTECH-LAP-0167",
     "name": "APPLE MACBOOK PRO 2018",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4176,7 +4176,7 @@
   },
   {
     "number": 168,
-    "id": "CHEX-LAP-0168",
+    "id": "VINTECH-LAP-0168",
     "name": "HP ELITEBOOK 840 G8 (Touchscreen)",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4201,7 +4201,7 @@
   },
   {
     "number": 169,
-    "id": "CHEX-LAP-0169",
+    "id": "VINTECH-LAP-0169",
     "name": "DELL LATITUDE 3310 2-in-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4226,7 +4226,7 @@
   },
   {
     "number": 170,
-    "id": "CHEX-LAP-0170",
+    "id": "VINTECH-LAP-0170",
     "name": "DELL LATITUDE 5400 [Core i7]",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4251,7 +4251,7 @@
   },
   {
     "number": 171,
-    "id": "CHEX-LAP-0171",
+    "id": "VINTECH-LAP-0171",
     "name": "Dell Latitude 7400",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4276,7 +4276,7 @@
   },
   {
     "number": 172,
-    "id": "CHEX-LAP-0172",
+    "id": "VINTECH-LAP-0172",
     "name": "HP PROBOOK 440 G6",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4301,7 +4301,7 @@
   },
   {
     "number": 173,
-    "id": "CHEX-LAP-0173",
+    "id": "VINTECH-LAP-0173",
     "name": "HP EliteBook 845 G7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4326,7 +4326,7 @@
   },
   {
     "number": 174,
-    "id": "CHEX-LAP-0174",
+    "id": "VINTECH-LAP-0174",
     "name": "HP EliteBook 840 G6",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4351,7 +4351,7 @@
   },
   {
     "number": 175,
-    "id": "CHEX-LAP-0175",
+    "id": "VINTECH-LAP-0175",
     "name": "LENOVO THINKPAD T14 GEN 1",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4376,7 +4376,7 @@
   },
   {
     "number": 176,
-    "id": "CHEX-LAP-0176",
+    "id": "VINTECH-LAP-0176",
     "name": "HP ELITEBOOK 1030 G4",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4401,7 +4401,7 @@
   },
   {
     "number": 177,
-    "id": "CHEX-LAP-0177",
+    "id": "VINTECH-LAP-0177",
     "name": "DELL LATITUDE 7410",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4426,7 +4426,7 @@
   },
   {
     "number": 178,
-    "id": "CHEX-LAP-0178",
+    "id": "VINTECH-LAP-0178",
     "name": "DELL XPS 13 9380",
     "Stock": "In Stock",
     "Release year": "2019",
@@ -4451,7 +4451,7 @@
   },
   {
     "number": 179,
-    "id": "CHEX-LAP-0179",
+    "id": "VINTECH-LAP-0179",
     "name": "DELL XPS 13 7390",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4476,7 +4476,7 @@
   },
   {
     "number": 180,
-    "id": "CHEX-LAP-0180",
+    "id": "VINTECH-LAP-0180",
     "name": "HP ELITEBOOK 845 G8",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4501,7 +4501,7 @@
   },
   {
     "number": 181,
-    "id": "CHEX-LAP-0181",
+    "id": "VINTECH-LAP-0181",
     "name": "DELL LATITUDE 5320 x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4526,7 +4526,7 @@
   },
   {
     "number": 182,
-    "id": "CHEX-LAP-0182",
+    "id": "VINTECH-LAP-0182",
     "name": "Dell XPS 13 9310 x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4551,7 +4551,7 @@
   },
   {
     "number": 183,
-    "id": "CHEX-LAP-0183",
+    "id": "VINTECH-LAP-0183",
     "name": "Dell Latitude 7400 2-in-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4576,7 +4576,7 @@
   },
   {
     "number": 184,
-    "id": "CHEX-LAP-0184",
+    "id": "VINTECH-LAP-0184",
     "name": "DELL LATITUDE 7320",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4601,7 +4601,7 @@
   },
   {
     "number": 185,
-    "id": "CHEX-LAP-0185",
+    "id": "VINTECH-LAP-0185",
     "name": "LENOVO THINKPAD L13 YOGA GEN 4",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4626,7 +4626,7 @@
   },
   {
     "number": 186,
-    "id": "CHEX-LAP-0186",
+    "id": "VINTECH-LAP-0186",
     "name": "DELL LATITUDE 7330",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4651,7 +4651,7 @@
   },
   {
     "number": 187,
-    "id": "CHEX-LAP-0187",
+    "id": "VINTECH-LAP-0187",
     "name": "HP ELITEBOOK 645 G9",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4676,7 +4676,7 @@
   },
   {
     "number": 188,
-    "id": "CHEX-LAP-0188",
+    "id": "VINTECH-LAP-0188",
     "name": "DELL LATITUDE 7420 2-IN-1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4701,7 +4701,7 @@
   },
   {
     "number": 189,
-    "id": "CHEX-LAP-0189",
+    "id": "VINTECH-LAP-0189",
     "name": "Dell Latitude 5330 2-in-1 (x360)",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4726,7 +4726,7 @@
   },
   {
     "number": 190,
-    "id": "CHEX-LAP-0190",
+    "id": "VINTECH-LAP-0190",
     "name": "LENOVO THINKPAD X1 YOGA",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4751,7 +4751,7 @@
   },
   {
     "number": 191,
-    "id": "CHEX-LAP-0191",
+    "id": "VINTECH-LAP-0191",
     "name": "HP ELITEBOOK 845 G10",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4776,7 +4776,7 @@
   },
   {
     "number": 192,
-    "id": "CHEX-LAP-0192",
+    "id": "VINTECH-LAP-0192",
     "name": "HP ELITEBOOK 1040 G7 x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4801,7 +4801,7 @@
   },
   {
     "number": 193,
-    "id": "CHEX-LAP-0193",
+    "id": "VINTECH-LAP-0193",
     "name": "MICROSOFT SURFACE PRO 7+",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4826,7 +4826,7 @@
   },
   {
     "number": 194,
-    "id": "CHEX-LAP-0194",
+    "id": "VINTECH-LAP-0194",
     "name": "HP EliteBook 840 G7(Touchscreen)",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4851,7 +4851,7 @@
   },
   {
     "number": 195,
-    "id": "CHEX-LAP-0195",
+    "id": "VINTECH-LAP-0195",
     "name": "HP EliteBook x360 1040 G7",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4876,7 +4876,7 @@
   },
   {
     "number": 196,
-    "id": "CHEX-LAP-0196",
+    "id": "VINTECH-LAP-0196",
     "name": "Dell Latitude 5430",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4901,7 +4901,7 @@
   },
   {
     "number": 197,
-    "id": "CHEX-LAP-0197",
+    "id": "VINTECH-LAP-0197",
     "name": "Dell Precision 7550",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4926,7 +4926,7 @@
   },
   {
     "number": 198,
-    "id": "CHEX-LAP-0198",
+    "id": "VINTECH-LAP-0198",
     "name": "2017 APPLE MACBOOK PRO",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -4951,7 +4951,7 @@
   },
   {
     "number": 199,
-    "id": "CHEX-LAP-0199",
+    "id": "VINTECH-LAP-0199",
     "name": "Dell Latitude 5450",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -4976,7 +4976,7 @@
   },
   {
     "number": 200,
-    "id": "CHEX-LAP-0200",
+    "id": "VINTECH-LAP-0200",
     "name": "HP SPECTRE 15 x360 CONVERTIBLE",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5001,7 +5001,7 @@
   },
   {
     "number": 201,
-    "id": "CHEX-LAP-0201",
+    "id": "VINTECH-LAP-0201",
     "name": "APPLE MACBOOK AIR 2020 M1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5026,7 +5026,7 @@
   },
   {
     "number": 202,
-    "id": "CHEX-LAP-0202",
+    "id": "VINTECH-LAP-0202",
     "name": "DELL LATITUDE 9430",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5051,7 +5051,7 @@
   },
   {
     "number": 203,
-    "id": "CHEX-LAP-0203",
+    "id": "VINTECH-LAP-0203",
     "name": "HP ELITEBOOK 1040 G8 x360",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5076,7 +5076,7 @@
   },
   {
     "number": 204,
-    "id": "CHEX-LAP-0204",
+    "id": "VINTECH-LAP-0204",
     "name": "HP ELITEBOOK 840 G8",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5101,7 +5101,7 @@
   },
   {
     "number": 205,
-    "id": "CHEX-LAP-0205",
+    "id": "VINTECH-LAP-0205",
     "name": "HP ELITEBOOK 840 G10",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5126,7 +5126,7 @@
   },
   {
     "number": 206,
-    "id": "CHEX-LAP-0206",
+    "id": "VINTECH-LAP-0206",
     "name": "DELL XPS 15 7590 MOBILE WORKSTATION",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -5151,7 +5151,7 @@
   },
   {
     "number": 207,
-    "id": "CHEX-LAP-0207",
+    "id": "VINTECH-LAP-0207",
     "name": "MICROSOFT SURFACE STUDIO(Gen 1)",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -5176,7 +5176,7 @@
   },
   {
     "number": 208,
-    "id": "CHEX-LAP-0208",
+    "id": "VINTECH-LAP-0208",
     "name": "Dell Precision 3561",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5201,7 +5201,7 @@
   },
   {
     "number": 209,
-    "id": "CHEX-LAP-0209",
+    "id": "VINTECH-LAP-0209",
     "name": "2022 MACBOOK PRO M2",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5226,7 +5226,7 @@
   },
   {
     "number": 210,
-    "id": "CHEX-LAP-0210",
+    "id": "VINTECH-LAP-0210",
     "name": "DELL LATITUDE 7450",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5251,7 +5251,7 @@
   },
   {
     "number": 211,
-    "id": "CHEX-LAP-0211",
+    "id": "VINTECH-LAP-0211",
     "name": "MICROSOFT SURFACE BOOK 3",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5276,7 +5276,7 @@
   },
   {
     "number": 212,
-    "id": "CHEX-LAP-0212",
+    "id": "VINTECH-LAP-0212",
     "name": "2020 APPLE MACBOOK PRO M1",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5301,7 +5301,7 @@
   },
   {
     "number": 213,
-    "id": "CHEX-LAP-0213",
+    "id": "VINTECH-LAP-0213",
     "name": "ASUS ROG STRIX G15 G512LW",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5326,7 +5326,7 @@
   },
   {
     "number": 214,
-    "id": "CHEX-LAP-0214",
+    "id": "VINTECH-LAP-0214",
     "name": "2019 APPLE MACBOOK PRO",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5351,7 +5351,7 @@
   },
   {
     "number": 215,
-    "id": "CHEX-LAP-0215",
+    "id": "VINTECH-LAP-0215",
     "name": "Dell Precision 5570",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -5376,7 +5376,7 @@
   },
   {
     "number": 216,
-    "id": "CHEX-LAP-0216",
+    "id": "VINTECH-LAP-0216",
     "name": "2021 APPLE MACBOOK PRO M1 PRO",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5401,7 +5401,7 @@
   },
   {
     "number": 217,
-    "id": "CHEX-LAP-0217",
+    "id": "VINTECH-LAP-0217",
     "name": "Dell Precision 5770",
     "Stock": "Out of Stock",
     "Release year": "Not published",
@@ -5426,7 +5426,7 @@
   },
   {
     "number": 218,
-    "id": "CHEX-LAP-0218",
+    "id": "VINTECH-LAP-0218",
     "name": "2021 MACBOOK PRO M1 MAX",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5451,7 +5451,7 @@
   },
   {
     "number": 219,
-    "id": "CHEX-LAP-0219",
+    "id": "VINTECH-LAP-0219",
     "name": "MSI RAIDER GE78HX",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5476,7 +5476,7 @@
   },
   {
     "number": 220,
-    "id": "CHEX-LAP-0220",
+    "id": "VINTECH-LAP-0220",
     "name": "ASUS ROG STRIX G16",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5501,7 +5501,7 @@
   },
   {
     "number": 221,
-    "id": "CHEX-LAP-0221",
+    "id": "VINTECH-LAP-0221",
     "name": "2025 RAZER BLADE 14 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5526,7 +5526,7 @@
   },
   {
     "number": 222,
-    "id": "CHEX-LAP-0222",
+    "id": "VINTECH-LAP-0222",
     "name": "LENOVO LEGION 5 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5551,7 +5551,7 @@
   },
   {
     "number": 223,
-    "id": "CHEX-LAP-0223",
+    "id": "VINTECH-LAP-0223",
     "name": "ALIENWARE M16 R1 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -5576,7 +5576,7 @@
   },
   {
     "number": 224,
-    "id": "CHEX-LAP-0224",
+    "id": "VINTECH-LAP-0224",
     "name": "ALIENWARE X16 R2 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -5601,7 +5601,7 @@
   },
   {
     "number": 225,
-    "id": "CHEX-LAP-0225",
+    "id": "VINTECH-LAP-0225",
     "name": "MSI Vector 16 HX AI Gaming Laptop",
     "Stock": "In Stock",
     "Release year": "Not published",
@@ -5626,7 +5626,7 @@
   },
   {
     "number": 226,
-    "id": "CHEX-LAP-0226",
+    "id": "VINTECH-LAP-0226",
     "name": "HP OMEN MAX 16 GAMING LAPTOP",
     "Stock": "In Stock",
     "Release year": "2022",
@@ -5651,7 +5651,7 @@
   },
   {
     "number": 227,
-    "id": "CHEX-LAP-0227",
+    "id": "VINTECH-LAP-0227",
     "name": "ALIENWARE M18 R1",
     "Stock": "In Stock",
     "Release year": "2022",

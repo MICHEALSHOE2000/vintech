@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: "CHEX COMPUTERS LTD",
-  shortName: "CHEX",
+  name: "VINTECH GLOBAL COMMUNICATIONS & SERVICES LTD",
+  shortName: "VINTECH GLOBAL",
   description:
-    "Tested business laptops for retail and wholesale buyers in Lagos and across Nigeria.",
-  location: "Suite 78, No. 8 Idowu Lane, Computer Village, Ikeja, Lagos",
+    "Vintech Global supplies premium gaming laptops, business laptops, mobile workstations and genuine laptop accessories in Computer Village, Ikeja.",
+  location: "Suite 6, Divine Plaza, Computer Village, Ikeja, Lagos",
   address:
-    "No. 8 Idowu Lane, Suite 78, Computer Village, Ikeja, Ikeja Local Government, Lagos",
-  phone: "+2348061355540",
-  phoneDisplay: "08061355540",
-  whatsapp: "2348061355540",
-  whatsappDisplay: "+234 806 135 5540",
+    "Suite 6, Divine Plaza, 14B Pepple Street, Computer Village, Ikeja 100001, Lagos",
+  phone: "+2348036341852",
+  phoneDisplay: "0803 634 1852",
+  whatsapp: "2348036341852",
+  whatsappDisplay: "+234 803 634 1852",
   email: "",
   hours: "Call or WhatsApp before visiting",
-  siteUrl: "https://chex-computers.aderintomicheal6.chatgpt.site",
+  siteUrl: "https://vintechglobal.netlify.app",
 };
 
 export function whatsappUrl(message: string) {
@@ -27,6 +27,6 @@ export function telUrl() {
 export function productWhatsappUrl(name: string, path: string) {
   const url = `${siteConfig.siteUrl}${path}`;
   return whatsappUrl(
-    `Hello CHEX Computers, I’m interested in the ${name}. Please confirm availability, the exact unit condition and delivery options. CHEX product page: ${url}`,
+    `Hello Vintech Global, I’m interested in the ${name}. Please confirm today’s price, availability, the exact unit condition and delivery options. Vintech product page: ${url}`,
   );
 }
