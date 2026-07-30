@@ -11,6 +11,7 @@ type CatalogueRow = {
   number: number;
   id: string;
   name: string;
+  Condition?: "Foreign-used" | "Open Box";
   Stock?: string;
   "Release year"?: string;
   "Operating system"?: string;
@@ -30,6 +31,7 @@ type CatalogueRow = {
   Ports?: string;
   Weight?: string;
   Colour?: string;
+  Features?: string[];
   "Specification level"?: string;
 };
 
@@ -41,7 +43,7 @@ export type Product = {
   brand: string;
   model: string;
   category: ProductCategory;
-  condition: "Foreign-used";
+  condition: "Foreign-used" | "Open Box";
   processor: string;
   processorGeneration: string;
   ram: string;
@@ -63,6 +65,7 @@ export type Product = {
   weight: string;
   color: string;
   specificationLevel: string;
+  features: string[];
   stockStatus: "In Stock" | "Out of Stock";
   featured: boolean;
   wholesaleAvailable: boolean;
@@ -127,7 +130,16 @@ const suppliedProductImages: Record<string, string[]> = {
   "LENOVO LEGION PRO 5 GEN-10": ["/products/lenovo-legion-pro-5-gen-10.webp"],
 };
 
-function imagesFor(name: string) {
+const suppliedProductImagesById: Record<string, string[]> = {
+  "VINTECH-LAP-0064": ["/products/hp-omen-supplied.svg"],
+  "VINTECH-LAP-0228": ["/products/hp-envy-x360-core-ultra-7.svg"],
+  "VINTECH-LAP-0229": ["/products/hp-victus-rtx-4060.svg"],
+  "VINTECH-LAP-0230": ["/products/asus-tuf-f15-rtx-3060.svg"],
+};
+
+function imagesFor(name: string, id: string) {
+  const suppliedById = suppliedProductImagesById[id];
+  if (suppliedById) return suppliedById;
   const upper = name.toUpperCase();
   const suppliedImages = suppliedProductImages[upper];
   if (suppliedImages) return suppliedImages;
@@ -169,7 +181,7 @@ export const products: Product[] = (catalogue as CatalogueRow[]).map((row, index
     brand,
     model: row.name.replace(/^\d{4}\s+/, "").replace(new RegExp(`^${brand}\\s+`, "i"), ""),
     category,
-    condition: "Foreign-used",
+    condition: row.Condition === "Open Box" ? "Open Box" : "Foreign-used",
     processor,
     processorGeneration: clean(row["CPU generation"]),
     ram,
@@ -191,15 +203,16 @@ export const products: Product[] = (catalogue as CatalogueRow[]).map((row, index
     weight: clean(row.Weight),
     color: clean(row.Colour),
     specificationLevel: clean(row["Specification level"]),
+    features: row.Features ?? [],
     stockStatus: row.Stock === "Out of Stock" ? "Out of Stock" : "In Stock",
     featured: index < 8,
     wholesaleAvailable: true,
     warranty: "Support terms confirmed per unit",
     includedItems: ["Laptop", "Charger", "Any extras shown on your invoice"],
     useCases: useCasesFor(category),
-    images: imagesFor(row.name),
+    images: imagesFor(row.name, row.id),
     shortDescription: details,
-    fullDescription: `${row.name} is listed in the Vintech Global foreign-used laptop catalogue. Review the published specifications below and contact Vintech to confirm the exact available unit, condition and delivery options.`,
+    fullDescription: `${row.name} is listed in the Vintech Global ${row.Condition === "Open Box" ? "open-box" : "foreign-used"} laptop catalogue. Review the published specifications below and contact Vintech to confirm the exact available unit, condition and delivery options.`,
   };
 });
 
