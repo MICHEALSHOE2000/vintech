@@ -19,6 +19,16 @@ test("exports the Vintech homepage with premium branding and SEO", async () => {
   assert.match(html, /Open Box HP Victus Gaming Laptop/i);
   assert.match(html, /ASUS TUF Gaming F15/i);
   assert.match(html, /Laptop accessories/i);
+  assert.match(html, /Creator Support &amp; Gimbals/i);
+  assert.match(html, /Creator Lighting/i);
+  assert.match(html, /Storage &amp; Connectivity/i);
+  assert.match(html, /Power &amp; Audio/i);
+  assert.match(html, /Laptop Essentials/i);
+  assert.match(html, /C17 AI Face Tracking Quadrapod Gimbal/i);
+  assert.match(html, /WD Elements Portable External Drive/i);
+  assert.match(html, /Kisonli K23 70W Portable Subwoofer/i);
+  assert.match(html, /HP W10 Bluetooth &amp; Wireless Dual-Mode Mouse/i);
+  assert.match(html, /Photo coming soon/i);
   assert.match(html, /No\. 20 Francis Oremeji Street/i);
   assert.doesNotMatch(html, /CHEX Computers/i);
 });
