@@ -5,6 +5,9 @@ import test from "node:test";
 const readExportedPage = (name) =>
   readFile(new URL(`../out/${name}`, import.meta.url), "utf8");
 
+const readSourceFile = (name) =>
+  readFile(new URL(`../${name}`, import.meta.url), "utf8");
+
 test("exports the Vintech homepage with premium branding and SEO", async () => {
   const html = await readExportedPage("index.html");
 
@@ -29,7 +32,8 @@ test("exports the Vintech homepage with premium branding and SEO", async () => {
   assert.match(html, /Kisonli K23 70W Portable Subwoofer/i);
   assert.match(html, /HP W10 Bluetooth &amp; Wireless Dual-Mode Mouse/i);
   assert.match(html, /Photo coming soon/i);
-  assert.match(html, /0803 546 571/i);
+  assert.match(html, /0803 254 6571/i);
+  assert.match(html, /tel:08032546571/i);
   assert.match(html, /\+234 803 254 6571/i);
   assert.match(html, /https:\/\/wa\.me\/2348032546571/i);
   assert.doesNotMatch(html, /2348036341852/i);
@@ -46,4 +50,14 @@ test("exports the primary shopping and trust routes", async () => {
   assert.match(shop, /Shop premium laptops/i);
   assert.match(shop, /230-laptop catalogue/i);
   assert.match(whyVintech, /Why Vintech/i);
+});
+
+test("contains mobile elements within the viewport", async () => {
+  const css = await readSourceFile("app/globals.css");
+
+  assert.match(css, /html\s*\{[^}]*overflow-x:\s*clip/i);
+  assert.match(css, /body\s*\{[^}]*overflow-x:\s*clip/i);
+  assert.match(css, /\.hero\s*\{[^}]*overflow:\s*hidden/i);
+  assert.match(css, /\.filter-drawer\s*\{[^}]*visibility:\s*hidden/i);
+  assert.match(css, /\.filter-drawer\.open\s*\{[^}]*visibility:\s*visible/i);
 });

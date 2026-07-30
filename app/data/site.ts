@@ -6,8 +6,8 @@ export const siteConfig = {
   location: "No. 20 Francis Oremeji Street, Computer Village, Ikeja, Lagos",
   address:
     "No. 20 Francis Oremeji Street, Computer Village, Ikeja, Lagos",
-  phone: "0803546571",
-  phoneDisplay: "0803 546 571",
+  phone: "08032546571",
+  phoneDisplay: "0803 254 6571",
   whatsapp: "2348032546571",
   whatsappDisplay: "+234 803 254 6571",
   email: "",
