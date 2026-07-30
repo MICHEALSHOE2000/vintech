@@ -3,9 +3,9 @@ export const siteConfig = {
   shortName: "VINTECH GLOBAL",
   description:
     "Vintech Global supplies premium gaming laptops, business laptops, mobile workstations and genuine laptop accessories in Computer Village, Ikeja.",
-  location: "Suite 6, Divine Plaza, Computer Village, Ikeja, Lagos",
+  location: "No. 20 Francis Oremeji Street, Computer Village, Ikeja, Lagos",
   address:
-    "Suite 6, Divine Plaza, 14B Pepple Street, Computer Village, Ikeja 100001, Lagos",
+    "No. 20 Francis Oremeji Street, Computer Village, Ikeja, Lagos",
   phone: "+2348036341852",
   phoneDisplay: "0803 634 1852",
   whatsapp: "2348036341852",
