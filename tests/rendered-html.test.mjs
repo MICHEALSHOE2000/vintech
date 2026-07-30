@@ -29,6 +29,10 @@ test("exports the Vintech homepage with premium branding and SEO", async () => {
   assert.match(html, /Kisonli K23 70W Portable Subwoofer/i);
   assert.match(html, /HP W10 Bluetooth &amp; Wireless Dual-Mode Mouse/i);
   assert.match(html, /Photo coming soon/i);
+  assert.match(html, /0803 546 571/i);
+  assert.match(html, /\+234 803 254 6571/i);
+  assert.match(html, /https:\/\/wa\.me\/2348032546571/i);
+  assert.doesNotMatch(html, /2348036341852/i);
   assert.match(html, /No\. 20 Francis Oremeji Street/i);
   assert.doesNotMatch(html, /CHEX Computers/i);
 });
