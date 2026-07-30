@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ProductCard } from "./components/ProductCard";
+import { accessoryGroups } from "./data/accessories";
 import { products } from "./data/products";
 import { siteConfig, whatsappUrl } from "./data/site";
 
@@ -181,26 +182,61 @@ export default function Home() {
       <section className="section accessories-section" id="accessories">
         <div className="section-shell">
           <div className="section-heading">
-            <div><p className="eyebrow"><span /> Complete your setup</p><h2>Every laptop essential.</h2></div>
-            <p className="section-intro">Upgrade, protect and connect your laptop with accessories for work, gaming and everyday use.</p>
+            <div><p className="eyebrow"><span /> Complete your setup</p><h2>Accessories, properly organised.</h2></div>
+            <p className="section-intro">Browse current creator gear, storage, connectivity, power, audio and laptop essentials. Product photos show available stock; clearly marked placeholders cover items awaiting photography.</p>
           </div>
-          <div className="accessories-grid">
-            {[
-              ["01", "Chargers & power", "Original and compatible laptop chargers, power solutions and replacements."],
-              ["02", "Bags & protection", "Laptop bags, sleeves and protective essentials for life on the move."],
-              ["03", "RAM & SSD upgrades", "Memory and storage upgrades to make the right machine even better."],
-              ["04", "Keyboard, mouse & audio", "Desk and gaming essentials including keyboards, mice and headsets."],
-              ["05", "Stands & cooling", "Laptop stands and cooling pads for comfort and sustained performance."],
-              ["06", "Hubs & connectivity", "Docks, adapters and hubs for a cleaner, better-connected workspace."],
-            ].map(([number, title, copy]) => (
-              <a
-                key={title}
-                href={whatsappUrl(`Hello Vintech Global, I want to buy ${title.toLowerCase()}. Please show me available options.`)}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span>{number}</span><h3>{title}</h3><p>{copy}</p><b>Check availability ↗</b>
-              </a>
+
+          <nav className="accessory-group-nav" aria-label="Accessory categories">
+            {accessoryGroups.map((group) => (
+              <a href={`#${group.id}`} key={group.id}>{group.name}</a>
+            ))}
+          </nav>
+
+          <div className="accessory-catalogue">
+            {accessoryGroups.map((group, groupIndex) => (
+              <section className="accessory-group" id={group.id} key={group.id}>
+                <div className="accessory-group-heading">
+                  <span>{String(groupIndex + 1).padStart(2, "0")}</span>
+                  <div>
+                    <h3>{group.name}</h3>
+                    <p>{group.description}</p>
+                  </div>
+                  <b>{group.products.length} items</b>
+                </div>
+
+                <div className="accessories-grid">
+                  {group.products.map((product) => (
+                    <article className="accessory-card" key={product.id}>
+                      <div className={`accessory-media${product.images.length > 1 ? " has-gallery" : ""}`}>
+                        {product.images.map((image, imageIndex) => (
+                          <img
+                            className={imageIndex === 0 ? "accessory-primary-photo" : "accessory-secondary-photo"}
+                            src={image}
+                            alt={imageIndex === 0 ? product.name : `Alternate view of ${product.name}`}
+                            loading="lazy"
+                            key={image}
+                          />
+                        ))}
+                        {product.placeholder && <span className="photo-status">Photo coming soon</span>}
+                        {product.images.length > 1 && <span className="photo-count">{product.images.length} photos</span>}
+                      </div>
+                      <div className="accessory-card-body">
+                        <p className="accessory-category">{group.name}</p>
+                        <h4>{product.name}</h4>
+                        <p>{product.description}</p>
+                        <a
+                          href={whatsappUrl(`Hello Vintech Global, please confirm the price and availability of the ${product.name}.`)}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`Check ${product.name} availability on WhatsApp`}
+                        >
+                          Check availability <span>↗</span>
+                        </a>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
             ))}
           </div>
         </div>
