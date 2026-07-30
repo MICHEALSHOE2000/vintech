@@ -5,7 +5,7 @@ Premium light-theme laptop catalogue for Vintech Global Communications & Service
 ## Included
 
 - Alienware-led premium homepage and performance collection
-- 227 foreign-used laptop listings
+- 230 foreign-used and open-box laptop listings
 - Search, brand, category, processor, use-case and availability filters
 - Individual product specification pages
 - Gaming, business, 2-in-1, workstation and MacBook categories

@@ -44,7 +44,17 @@ const performancePicks = performanceNames.flatMap((name) => {
   return product ? [product] : [];
 });
 
-const currentPicks = products.filter((product) => product.featured).slice(0, 4);
+const newArrivalIds = [
+  "VINTECH-LAP-0228",
+  "VINTECH-LAP-0229",
+  "VINTECH-LAP-0230",
+  "VINTECH-LAP-0064",
+];
+
+const currentPicks = newArrivalIds.flatMap((id) => {
+  const product = products.find((item) => item.id === id);
+  return product ? [product] : [];
+});
 
 export default function Home() {
   return (
@@ -132,7 +142,7 @@ export default function Home() {
         <div className="section-shell">
           <div className="section-heading">
             <div><p className="eyebrow"><span /> Curated catalogue</p><h2>Find your next machine.</h2></div>
-            <Link className="text-link" href="/shop">Browse all 227 listings ↗</Link>
+            <Link className="text-link" href="/shop">Browse all {products.length} listings ↗</Link>
           </div>
           <div className="product-grid">{currentPicks.map((product) => <ProductCard key={product.id} product={product} />)}</div>
           <div className="featured-footer"><Link className="button button-lime button-large" href="/shop">Explore the full catalogue <span>↗</span></Link></div>
@@ -231,7 +241,7 @@ export default function Home() {
         <div><p className="eyebrow"><span /> Buying FAQ</p><h2>Answers before you order.</h2></div>
         <div>
           {[
-            ["Do you sell foreign-used laptops?", "Yes. The catalogue contains 227 foreign-used laptop listings. Vintech confirms the exact unit condition before you order."],
+            ["Do you sell foreign-used and open-box laptops?", `Yes. The catalogue contains ${products.length} laptop listings, including foreign-used and open-box options. Vintech confirms the exact unit condition before you order.`],
             ["Do you stock gaming laptops?", "Yes. Ask about current Alienware, Lenovo Legion, ASUS ROG, HP Omen, Acer Nitro and MSI availability."],
             ["Are the laptops tested before delivery?", "Available units are inspected and their key details are confirmed with you before payment."],
             ["Do you sell laptop accessories?", "Yes. Vintech supplies chargers, bags, RAM, SSDs, keyboards, mice, headsets, stands, cooling pads, docks and adapters."],

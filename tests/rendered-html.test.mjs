@@ -15,7 +15,11 @@ test("exports the Vintech homepage with premium branding and SEO", async () => {
   assert.match(html, /<meta name="description" content="[^"]*Vintech Global/i);
   assert.match(html, /src="\/vintech-logo\.jpg"/i);
   assert.match(html, /Alienware x17 R2/i);
+  assert.match(html, /HP Envy x360 15\.6/i);
+  assert.match(html, /Open Box HP Victus Gaming Laptop/i);
+  assert.match(html, /ASUS TUF Gaming F15/i);
   assert.match(html, /Laptop accessories/i);
+  assert.match(html, /No\. 20 Francis Oremeji Street/i);
   assert.doesNotMatch(html, /CHEX Computers/i);
 });
 
@@ -26,5 +30,6 @@ test("exports the primary shopping and trust routes", async () => {
   ]);
 
   assert.match(shop, /Shop premium laptops/i);
+  assert.match(shop, /230-laptop catalogue/i);
   assert.match(whyVintech, /Why Vintech/i);
 });
