@@ -46,7 +46,7 @@ export function ShopClient({ initialQuery = "", initialCategory = "", initialUse
       <label>Processor<select data-testid="processor-filter" value={processor} onChange={(event) => setProcessor(event.target.value)}><option value="">All processors</option><option value="Core i5">Intel Core i5</option><option value="Core i7">Intel Core i7</option></select></label>
       <label>Use case<select value={useCase} onChange={(event) => setUseCase(event.target.value)}><option value="">All use cases</option><option>Office and remote work</option><option>Coding and development</option><option>Graphics and video editing</option><option>School and university</option><option>Everyday personal use</option></select></label>
       <label>Availability<select value={stock} onChange={(event) => setStock(event.target.value)}><option value="">All stock statuses</option><option>In Stock</option><option>Out of Stock</option></select></label>
-      <div className="filter-facts"><p><span>Catalogue</span>227 laptop listings</p><p><span>Condition</span>Foreign-used</p><p><span>Specifications</span>Published product details</p><p><span>Availability</span>Confirm before ordering</p></div>
+      <div className="filter-facts"><p><span>Catalogue</span>{products.length} laptop listings</p><p><span>Condition</span>Foreign-used &amp; open-box</p><p><span>Specifications</span>Published product details</p><p><span>Availability</span>Confirm before ordering</p></div>
     </div>
   );
 
